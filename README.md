@@ -5,7 +5,7 @@ This repository contains the group submission for CPT304 Assignment 1, focused o
 
 # Design Patterns Chosen
 - Strategy Pattern 
-- [Other Pattern – To be added]
+- Decorator Pattern
 
 
 # Group Members & Tasks
@@ -13,7 +13,7 @@ This repository contains the group submission for CPT304 Assignment 1, focused o
 | Name               | Task                                          |
 | ------------------ | --------------------------------------------- |
 | Changqi Luo        | Strategy Pattern Case Study                   |
-| Yoonhee Park       | Case Study (TBC)                              |
+| Yoonhee Park       | Decorator Pattern Case Study                  |
 | Cheerie Lee Rui Yi | Literature Review on Chosen Design Patterns   |
 | Xingyu Zhong       | Key Challenges & Conclusion                   |      
 
