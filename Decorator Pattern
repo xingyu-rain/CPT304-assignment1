@@ -1,0 +1,13 @@
+A case study of applying the Decorator Pattern 
+In the study "Decorator Pattern with XML in Web Application" by Vijay K. Kerji, the Decorator pattern was applied to a web-based Development Management System (DMS) to handle UI requirements that vary by user type.
+This system supports multiple user types such as Admin, Program Manager, and Stakeholder, and had a requirement to display different UI components on the web page depending on the user type. To address this, UI elements shared by all users were defined in DefaultUserView, while user-specific additions were handled by wrapping the base object using decorators like AdminDecorator, ManagerDecorator, and StakeholderDecorator.
+In this way, the design pattern allowed new user types to be added by simply defining a new decorator object, enabling functionality to be extended without modifying the existing structure.
+
+How does the Decorator Pattern addresses challenges identified in No Silver Bullet?
+The Decorator pattern is a design approach that can address the essential characteristics of software identified by Fred Brooks in No Silver Bullet, particularly complexity and changeability.
+Brooks points out that as software gains functionality, the nonlinear interactions between components increase, making the system progressively harder to understand and modify. The Decorator pattern responds to this complexity not through inheritance but through composition, allowing functionality to be flexibly added to individual objects. This approach separates responsibilities at the object level, restricting modifications or extensions to the specific objects concerned, thereby helping to manage structural complexity.
+In addition, Brooks explains that software is constantly exposed to changes in user requirements, which often leads to architectural degradation and high modification costs. The Decorator pattern enables a structure where each functional responsibility is delegated to a decorator object, so that when new requirements arise, it is sufficient to define a new decorator without modifying the existing code.
+As a result, the Decorator pattern provides a structure that controls complexity while allowing for flexible adaptation to change. This contributes to improving the maintainability and scalability of software, and reduces the risk of architectural degradation.
+
+
+[1] V. K. Kerji, “Decorator Pattern with XML in Web Application,” in Proc. IEEE Int. Conf., 2011, pp. 304–308. doi: 10.1109/ICECTECH.2011.6102155.
