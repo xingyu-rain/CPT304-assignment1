@@ -1,0 +1,19 @@
+Conclusion
+Brooks’ "No Silver Bullet" asserts that software engineering’s essential difficulties—complexity, conformity, changeability, and invisibility—limit revolutionary gains [1]. This analysis, integrating the Strategy and Decorator patterns, confirms their utility within these constraints.
+
+The Strategy Pattern, applied to payment systems, reduces complexity and supports changeability by isolating algorithms [2], aligning with modular design principles [5]. The Decorator Pattern, demonstrated in UI enhancement, manages complexity and adapts to evolving needs via composition [3], enhancing maintainability [6]. Literature underscores their role in improving flexibility and scalability [4]. However, Brooks’ thesis holds: these patterns mitigate, not eliminate, inherent challenges [1].
+
+Progress, as Brooks suggests, requires consistent exploitation of such innovations [1]. This study illustrates that while Strategy and Decorator enhance software development, they operate within the essential limits Brooks delineates, reinforcing the need for incremental, disciplined strategies.
+
+References
+[1] F. P. Brooks, "No Silver Bullet: Essence and Accidents of Software Engineering," Computer, vol. 20, no. 4, pp. 10–19, Apr. 1987.
+
+[2] E. Gamma, R. Helm, R. Johnson, and J. Vlissides, Design Patterns: Elements of Reusable Object-Oriented Software, 1st ed. Reading, MA, USA: Addison-Wesley, 1995, p. 315.
+
+[3] V. K. Kerji, “Decorator Pattern with XML in Web Application,” in Proc. IEEE Int. Conf., 2011, pp. 304–308, doi: 10.1109/ICECTECH.2011.6102155.
+
+[4] H. Mu and S. Jiang, "Design patterns in software development," in 2011 IEEE 2nd International Conference on Software Engineering and Service Science, Beijing, China, 2011, pp. 322-325, doi: 10.1109/ICSESS.2011.5982228.
+
+[5] H. Tamenaoul, M. El Hamlaoui, and M. Nassar, "Strategy Registry: an optimized implementation of the Strategy design pattern in solidity for the Ethereum Blockchain," in 2024 19th Conference on Computer Science and Intelligence Systems (FedCSIS), Belgrade, Serbia, 2024, pp. 249-252, doi: 10.15439/2024F6780.
+
+[6] A. Kurmangali, M. E. Rana, and W. N. W. Ab Rahman, "Impact of Abstract Factory and Decorator Design Patterns on Software Maintainability: Empirical Evaluation using CK Metrics," in 2022 International Conference on Decision Aid Sciences and Applications (DASA), Chiangrai, Thailand, 2022, pp. 517-522, doi: 10.1109/DASA54658.2022.9765083.
